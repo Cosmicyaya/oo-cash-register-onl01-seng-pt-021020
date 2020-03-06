@@ -6,7 +6,7 @@ class CashRegister
     @discount = discount
     @items = []
   end
-  def.discount
+  def discount
   self.employee_discount
 end
 def items
