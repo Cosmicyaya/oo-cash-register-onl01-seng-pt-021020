@@ -18,18 +18,5 @@ def add_item(title, price, quantity = 1)
   end
 else
   @items << item
-end
-end
-  if @employee_discount
-    @total = @total * (1 - @employee_discount / 100)
-    "After the discount the total comes to #{@total}"
-  else
-    "There is no discount to apply."
-  end
-end
-
-def void_last_transaction
-  @total -= @price
-end
-
+ end
 end
