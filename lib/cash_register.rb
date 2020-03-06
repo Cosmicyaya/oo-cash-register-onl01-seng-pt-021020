@@ -23,6 +23,7 @@ def apply_discount
     @total = @total * (1 - @employee_discount / 100)
     "After the discount the total comes to #{@total}"
   else
-    "There is no discount to apply"
+    "There is no discount to apply."
   end
- end
+end
+end
